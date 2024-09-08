@@ -7,10 +7,6 @@ import {AnnualData} from "../model/annual-data.interface";
 
 @Component({
   selector: 'app-user-input',
-  standalone: true,
-  imports: [
-    FormsModule
-  ],
   templateUrl: './user-input.component.html',
   styleUrl: './user-input.component.css'
 })
